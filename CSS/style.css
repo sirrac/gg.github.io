@@ -1,5 +1,6 @@
 /*placeholder*/
 
 .nav-pointer {
-    list-style-type: none
+    list-style-type: none;
+    color: red;
 }
