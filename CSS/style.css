@@ -54,8 +54,11 @@
 }
 
 .Section-Content {
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
     font-family: 'Libre Franklin', sans-serif;
 }
 
