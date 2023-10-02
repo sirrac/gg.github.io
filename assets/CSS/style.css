@@ -19,9 +19,14 @@
 .nav-pointer:hover {
     box-shadow: 0 0 50px red;
     position: relative;
-    z-index: 10;
 }
 
+.Space-Container { 
+    width: 100%;
+    height: 250px;
+    border-radius: 0;
+
+}
 
 
 #nav-container {
@@ -31,7 +36,7 @@
     border-radius: 0px;
     position: fixed;
     top: 0;
-   
+    margin-bottom: 500px;
 
 }
 
@@ -86,7 +91,15 @@
     border-radius: 0px;
 }
 
-html, body {
+#Contact-Us-Page-Header {
+    bottom: 100px; 
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
     margin: 0;
     padding: 0;
 }
@@ -105,4 +118,8 @@ h1, h2, h3, h4, h5, h6, li, ul {
 
 a:visited, a:focus {
     text-decoration: none;
+}
+
+input, form {
+    font-family: 'Libre Franklin', sans-serif;
 }
